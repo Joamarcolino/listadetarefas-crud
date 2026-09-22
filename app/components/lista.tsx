@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { AsyncLocalStorage } from 'async_hooks'
 
 export default function Lista({saveTarefas, setEditValue, setEditingIndex,editingIndex,editValue, tarefas, setTarefas}: any) {
 
